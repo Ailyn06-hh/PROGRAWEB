@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina web</title>
+    <link rel="stylesheet" href="CSS/styles.css"/>
+</head>
+<body>
+    <h1>HOLAa</h1>
+    <img src="IMG/kirby.jpg" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, sunt obcaecati quidem iste facere perspiciatis ipsum dignissimos adipisci aperiam magni accusamus ducimus quis nemo doloribus? Aperiam vel aut ab fugit?</p>
+<picture>
+    <source srcset="IMG/kirby.jpg">
+</picture>
+<a href="https://www.google.com/" target="_blank">Click aquí</a>
+<br><br><br>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam id pariatur veritatis reiciendis tempora voluptatibus obcaecati soluta hic cupiditate, deleniti asperiores accusamus cumque eligendi unde omnis eum dolor. Corrupti, quisquam?}</p>
+<!--Comando en automatico para las listas ol>li*4 -->
+<ol>
+    <li>opcion 1</li>
+    <li>opcion 2</li>
+</ol> 
+<ul>
+    <li>hola</li>
+</ul>
+<h1>titulo 1</h1>
+<h2>titulo 2</h2>
+<h3>titulo 3</h3>
+<h4>titulo 4</h4>
+<h5>titulo 5</h5>
+<h6>titulo 6</h6>
+<div style="border: 5px solid plum ;" >
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, necessitatibus! Aliquid, beatae? Totam voluptas sequi numquam dolores sit, aspernatur natus eos veniam culpa, pariatur optio, similique perspiciatis voluptates aliquam id.</p>
+        <div style="border: 7px blueviolet;"> 
+            <ul>
+                <li>1</li>
+            |   <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </div>
+        </div>
+        <form id="formulario">
+    <div>
+        <label for="Nombre">Nombre</label>
+  <input type="text" name="Nombre" id="Nombre" required>
+    </div>
+    <div>
+    <label for="password">Contraseña</label>
+  <input type="password" name="password" id="password">    
+    </div>
+    <div>
+        <input type="radio" name="fav_lenguage" id="HTML"
+        value="HTML" /><label for="fav_lenguage"HTML></label>
+        <input type="radio" name="fav_lenguage" id="CSS"
+        value="CSS" /><label for="fav_lenguage"CSS></label>
+        <input type="radio" name="v" id="javasript"
+        value="javascript" /><label for="fav_lenguage"javascript></label>    
+    </div>
+    <div>
+        <input type="checkbox" name="option" id="si"
+        value="si"><label for="option">si</label>
+        <input type="checkbox" name="option" id="no"
+        value="no"><label for="option">no</label>
+        <input type="checkbox" name="option" id="tal vez"
+        value="tal vez"><label for="option">tal vez</label>
+    </div>
+    <div>
+        <select name="country" id="country">
+            <option value="" selected> selecciona una opcion</option>
+            <option value="Mexico">Mexico</option>
+            <option value="China">China</option>
+            <option value="Francia">Francia</option>
+        </select>
+    </div>
+    <input type="submit" value="Enviar" />
+ </form>  
+    <script>
+        document.getElementById("formulario").addEventListener("submit", function(evente){
+            event.preventDefault(); //evita que la pagina se recargue
+            const valor = document.getElementById("Nombre").
+            value;
+            alert("Hola " + valor);
+        })
+    </script>
+</body>
+</html>
+

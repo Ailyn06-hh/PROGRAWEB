@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing :border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hotpink;
+
+}
+.title{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    padding: 10px;
+    color : #fff;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 3px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    border: 2px solid #fff;
+    margin: 0 auto;
+}
+
+a:hover {
+    color:blueviolet;
+    transition: 0.5s;
+}
