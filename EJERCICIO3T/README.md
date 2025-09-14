@@ -21,8 +21,8 @@ Esta es una pagina en html diseñada como contacto para empresas, en esta págin
 ---
 
 ## 🔗 Enlace al proyecto
-Repositorio en GitHub: [Pega aquí tu enlace]  
-Deploy: [LINK](http://yomidev.github.io/newsletter/)
+Repositorio en GitHub: https://github.com/Ailyn06-hh/PROGRAWEB.git
+Deploy: https://ailyn06-hh.github.io/PROGRAWEB/EJERCICIO3T/
 ---
 
 ## 📝 Reflexión

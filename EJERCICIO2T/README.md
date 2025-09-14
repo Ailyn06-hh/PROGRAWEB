@@ -22,8 +22,8 @@ Para este ejercicio se hizo un listado de artículos, usando Flexbox se construy
 ---
 
 ## 🔗 Enlace al proyecto
-Repositorio en GitHub: [Pega aquí tu enlace]  
-Deploy: [LINK](http://yomidev.github.io/newsletter/)
+Repositorio en GitHub: https://github.com/Ailyn06-hh/PROGRAWEB.git
+Deploy: https://ailyn06-hh.github.io/PROGRAWEB/EJERCICIO2T/
 ---
 
 ## 📝 Reflexión

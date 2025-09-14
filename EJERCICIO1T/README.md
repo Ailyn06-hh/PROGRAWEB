@@ -20,8 +20,8 @@ Crear una pagina HTML que permita al usuario suscribirse por medio de su email a
 ---
 
 ## 🔗 Enlace al proyecto
-Repositorio en GitHub: [Pega aquí tu enlace]  
-Deploy: [Pega aquí el deploy de GitHub Pages]
+Repositorio en GitHub: [https://github.com/Ailyn06-hh/PROGRAWEB.git]  
+Deploy: (https://ailyn06-hh.github.io/PROGRAWEB/EJERCICIO1T/)
 ---
 
 ## 📝 Reflexión
