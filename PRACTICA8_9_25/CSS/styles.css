@@ -66,7 +66,7 @@
 }
 
 .text-banner, .img-banner{
-    flex: 1; /* Cada contenedor ocupa el 50% de la pantalla*/
+    flex: 1; 
 }
 
 .text-banner{
